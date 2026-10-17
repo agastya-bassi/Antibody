@@ -30,4 +30,6 @@ Open `index.html` in a browser. Press **Run**, or use **→** to go one step at 
 | 03 Vaccinate | 24 mutations are tested; gaps become new antibodies. |
 | 04 Herd immunity | A different company's shopping agent blocks a variant in 4 ms using an antibody learned elsewhere. |
 
-The demo is scripted for stage reliability. When opened as a Claude artifact, step 02's intent check is a live call to Claude; anywhere else it falls back to the recorded verdict and is labeled SCRIPTED.
+The page has three tabs: the demo, how the product works, and the design philosophy behind it.
+
+The demo is scripted so it runs the same way every time. When opened as a Claude artifact, step 02's intent check is a live call to Claude; on GitHub Pages it plays the verdict recorded from a live run.
